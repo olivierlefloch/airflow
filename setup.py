@@ -182,7 +182,7 @@ atlas = [
     'atlasclient>=0.1.2',
 ]
 aws = [
-    'boto3>=1.12.0,<2.0.0',
+    'boto3>=1.12.0',
     'watchtower~=0.7.3',
 ]
 azure = [
@@ -234,7 +234,7 @@ druid = [
     'pydruid>=0.4.1,<=0.5.8',
 ]
 elasticsearch = [
-    'elasticsearch>7, <7.6.0',
+    'elasticsearch>7',
     'elasticsearch-dbapi==0.1.0',
     'elasticsearch-dsl>=5.0.0',
 ]
@@ -557,7 +557,7 @@ EXTRAS_REQUIREMENTS = {
 INSTALL_REQUIREMENTS = [
     'WTforms<2.3.0',
     # TODO: Remove after https://github.com/dpgaspar/Flask-AppBuilder/issues/1356 is fixed and released.
-    'alembic>=1.2, <2.0',
+    'alembic>=1.2',
     'argcomplete~=1.10',
     'attrs~=19.3',
     'cached_property~=1.5',
@@ -574,21 +574,21 @@ INSTALL_REQUIREMENTS = [
     'flask-wtf>=0.14.2, <0.15',
     'funcsigs>=1.0.0, <2.0.0',
     'graphviz>=0.12',
-    'gunicorn>=19.5.0, <20.0',
+    'gunicorn>=19.5.0',
     'iso8601>=0.1.12',
-    'jinja2>=2.10.1, <2.11.0',
+    'jinja2>=2.10.1',
     'json-merge-patch==0.2',
     'jsonschema~=3.0',
     'lazy_object_proxy~=1.3',
     'lockfile>=0.12.2',
     'markdown>=2.5.2, <3.0',
-    'pandas>=0.17.1, <2.0',
+    'pandas>=0.17.1',
     'pendulum==1.4.4',
     'pep562~=1.0;python_version<"3.7"',
-    'psutil>=4.2.0, <6.0.0',
+    'psutil>=4.2.0',
     'pygments>=2.0.1, <3.0',
     'python-daemon>=2.1.1, <2.2',
-    'python-dateutil>=2.3, <3',
+    'python-dateutil>=2.3',
     'requests>=2.20.0, <3',
     'setproctitle>=1.1.8, <2',
     'sqlalchemy~=1.3',
@@ -600,9 +600,9 @@ INSTALL_REQUIREMENTS = [
     'thrift>=0.9.2',
     'typing;python_version<"3.6"',
     'typing-extensions>=3.7.4;python_version<"3.8"',
-    'tzlocal>=1.4,<2.0.0',
+    'tzlocal>=1.4',
     'unicodecsv>=0.14.1',
-    'werkzeug<1.0.0',
+    'werkzeug',
 ]
 
 
